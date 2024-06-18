@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class CarLoop : MonoBehaviour
 {
-    public Transform[] waypoints;  // 트랙의 웨이포인트들
-    public float speed = 5f;       // 자동차의 이동 속도
+    public Transform[] waypoints;  
+    public float speed = 5f;      
     private int currentWaypointIndex = 0;
 
     void Update()
